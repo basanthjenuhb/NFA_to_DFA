@@ -226,6 +226,6 @@ int main()
 	fprintf(outfile,"\n}");
 	fclose (outfile);
 	system("dot -Tps -O BTREE.dot ");
-	system("xdg-open BTREE.dot.ps &");
+	system("evince BTREE.dot.ps &");
 //	system("rm BTREE.dot");
 }
